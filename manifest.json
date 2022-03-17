@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "YT Playback speed",
+  "version": "1.0",
+  "description": "Allows you to arbitrarily change playback speed of a youtube video.",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nexus.chebykin@gmail.com"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "Playback speed",
+    "default_popup": "popup/choose_speed.html"
+  }
+}
